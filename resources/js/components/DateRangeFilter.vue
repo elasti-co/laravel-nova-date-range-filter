@@ -32,9 +32,9 @@
 
                 <button
                     v-show="isValidCurrentValue"
-                    class="reset-button btn btn-sm fa fa-times"
+                    class="reset-button btn btn-sm"
                     @click="resetFilter"
-                ></button>
+                >&times;</button>
             </div>
         </div>
     </div>
